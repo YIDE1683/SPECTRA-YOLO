@@ -1,0 +1,262 @@
+{
+  "format": "spectra_algorithm_source_provenance_v1",
+  "release_date": "2026-10-11",
+  "files": [
+    {
+      "project_relative_source": "tools/spectra_a_prototype/contract.json",
+      "release_relative_path": "tools/spectra_a_prototype/contract.json",
+      "source_sha256": "99e6848b4d85d1088fc4d010e27c73d63537192cc44d706f6f87789735609c1d",
+      "release_sha256": "99e6848b4d85d1088fc4d010e27c73d63537192cc44d706f6f87789735609c1d",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 6478
+    },
+    {
+      "project_relative_source": "tools/spectra_a_prototype/model.py",
+      "release_relative_path": "tools/spectra_a_prototype/model.py",
+      "source_sha256": "a2fbca6514c907edecf5f9053ca25702d64953a2ac9af3122ec9e3953ea002c1",
+      "release_sha256": "a2fbca6514c907edecf5f9053ca25702d64953a2ac9af3122ec9e3953ea002c1",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 15706
+    },
+    {
+      "project_relative_source": "tools/spectra_a_prototype/numerics.py",
+      "release_relative_path": "tools/spectra_a_prototype/numerics.py",
+      "source_sha256": "dfb1b37257c7740afe22f8c4a7359980a3f9da49d61a207355cd29d3be5c2e5c",
+      "release_sha256": "dfb1b37257c7740afe22f8c4a7359980a3f9da49d61a207355cd29d3be5c2e5c",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 11775
+    },
+    {
+      "project_relative_source": "tools/spectra_a_prototype/resource_model.py",
+      "release_relative_path": "tools/spectra_a_prototype/resource_model.py",
+      "source_sha256": "390d74816da7a615be561e41692f7463fc539324fd54bc4e587e6d90b3b48d7a",
+      "release_sha256": "390d74816da7a615be561e41692f7463fc539324fd54bc4e587e6d90b3b48d7a",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 14990
+    },
+    {
+      "project_relative_source": "tools/spectra_a_prototype/tile_planner.py",
+      "release_relative_path": "tools/spectra_a_prototype/tile_planner.py",
+      "source_sha256": "2d253548a0e989feaefa10abacc78769027552e5da92b71053775325b54d28eb",
+      "release_sha256": "2d253548a0e989feaefa10abacc78769027552e5da92b71053775325b54d28eb",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 14229
+    },
+    {
+      "project_relative_source": "tools/spectra_a_prototype/tiled_reference.py",
+      "release_relative_path": "tools/spectra_a_prototype/tiled_reference.py",
+      "source_sha256": "73f50dddd1cc1e42cbc36e6b70af87246b93e099eb70ed4ce0144ac7d30273b0",
+      "release_sha256": "73f50dddd1cc1e42cbc36e6b70af87246b93e099eb70ed4ce0144ac7d30273b0",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 4052
+    },
+    {
+      "project_relative_source": "tools/spectra_a_prototype/test_model.py",
+      "release_relative_path": "tools/spectra_a_prototype/test_model.py",
+      "source_sha256": "3628a8ee45207eb0e04bbbd09579759e47cd275efd0db15924423504d1f6c5ea",
+      "release_sha256": "3628a8ee45207eb0e04bbbd09579759e47cd275efd0db15924423504d1f6c5ea",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 14954
+    },
+    {
+      "project_relative_source": "tools/spectra_a_prototype/test_numerics.py",
+      "release_relative_path": "tools/spectra_a_prototype/test_numerics.py",
+      "source_sha256": "1b53baadff722aaa2e3c2ff0b2a4aac0fb3e06c9f17ee455feae9b355b0ed01f",
+      "release_sha256": "1b53baadff722aaa2e3c2ff0b2a4aac0fb3e06c9f17ee455feae9b355b0ed01f",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 8632
+    },
+    {
+      "project_relative_source": "tools/spectra_a_prototype/test_resources.py",
+      "release_relative_path": "tools/spectra_a_prototype/test_resources.py",
+      "source_sha256": "3a9ebf66fa0cb2056483431933eebed83d97fbdaa6cc6982bac131f3a66ed86d",
+      "release_sha256": "3a9ebf66fa0cb2056483431933eebed83d97fbdaa6cc6982bac131f3a66ed86d",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 8650
+    },
+    {
+      "project_relative_source": "tools/spectra_a_prototype/test_tile_planner.py",
+      "release_relative_path": "tools/spectra_a_prototype/test_tile_planner.py",
+      "source_sha256": "6dfc46b39b2f131dedd11194ed57b00f41911e55ea7a231d66b58f4462b6795b",
+      "release_sha256": "6dfc46b39b2f131dedd11194ed57b00f41911e55ea7a231d66b58f4462b6795b",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 7796
+    },
+    {
+      "project_relative_source": "tools/spectra_a_prototype/test_tiled_reference.py",
+      "release_relative_path": "tools/spectra_a_prototype/test_tiled_reference.py",
+      "source_sha256": "6b7de1c6f0da8b9c991fa016e0e5521c4acfe5dea99996cb9824906797ad95ce",
+      "release_sha256": "6b7de1c6f0da8b9c991fa016e0e5521c4acfe5dea99996cb9824906797ad95ce",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 2266
+    },
+    {
+      "project_relative_source": "tools/spectra_rewrite_training/audit_neu.py",
+      "release_relative_path": "tools/spectra_rewrite_training/audit_neu.py",
+      "source_sha256": "e2a63aba6867a41cf5a4bb4ceee9f8f97290315c835e4da7189f57e2f9d950ae",
+      "release_sha256": "e2a63aba6867a41cf5a4bb4ceee9f8f97290315c835e4da7189f57e2f9d950ae",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 31016
+    },
+    {
+      "project_relative_source": "tools/spectra_rewrite_training/data.py",
+      "release_relative_path": "tools/spectra_rewrite_training/data.py",
+      "source_sha256": "c46dbbc0abd1cfaf6094a5c32fbf1cbec7176bdcfc0e1251e3430ec06f451b29",
+      "release_sha256": "c46dbbc0abd1cfaf6094a5c32fbf1cbec7176bdcfc0e1251e3430ec06f451b29",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 23031
+    },
+    {
+      "project_relative_source": "tools/spectra_rewrite_training/detection.py",
+      "release_relative_path": "tools/spectra_rewrite_training/detection.py",
+      "source_sha256": "1e2aa72504dd51e3b8e23f4a42db81e9f4d237185a88789f5177c073b8a4a54a",
+      "release_sha256": "1e2aa72504dd51e3b8e23f4a42db81e9f4d237185a88789f5177c073b8a4a54a",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 21136
+    },
+    {
+      "project_relative_source": "tools/spectra_rewrite_training/losses.py",
+      "release_relative_path": "tools/spectra_rewrite_training/losses.py",
+      "source_sha256": "37f231ede1a2f6cc9827fac0ae881c4b31105851f3fcd8d1c20ea0506aa7a5d0",
+      "release_sha256": "37f231ede1a2f6cc9827fac0ae881c4b31105851f3fcd8d1c20ea0506aa7a5d0",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 14806
+    },
+    {
+      "project_relative_source": "tools/spectra_rewrite_training/model_adapter.py",
+      "release_relative_path": "tools/spectra_rewrite_training/model_adapter.py",
+      "source_sha256": "2e51b347a6adb76083272345d99a5a1ee1a1b83742cc03e8f0d9cfe70eaeb0fd",
+      "release_sha256": "2e51b347a6adb76083272345d99a5a1ee1a1b83742cc03e8f0d9cfe70eaeb0fd",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 3902
+    },
+    {
+      "project_relative_source": "tools/spectra_rewrite_training/test_adapter.py",
+      "release_relative_path": "tools/spectra_rewrite_training/test_adapter.py",
+      "source_sha256": "77ed9b7fe03f0e87be3033f288ea9992484058c76c68219078ace1968e420471",
+      "release_sha256": "77ed9b7fe03f0e87be3033f288ea9992484058c76c68219078ace1968e420471",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 3773
+    },
+    {
+      "project_relative_source": "tools/spectra_rewrite_training/test_data.py",
+      "release_relative_path": "tools/spectra_rewrite_training/test_data.py",
+      "source_sha256": "c8272bd6b94a9fbde760cab78d7c83e0a59f68f6f314a90cad45121ac0655e8c",
+      "release_sha256": "c8272bd6b94a9fbde760cab78d7c83e0a59f68f6f314a90cad45121ac0655e8c",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 10815
+    },
+    {
+      "project_relative_source": "tools/spectra_rewrite_training/test_detection.py",
+      "release_relative_path": "tools/spectra_rewrite_training/test_detection.py",
+      "source_sha256": "1feb1a03393c918d0e85917d5b465f064b3e76b1ade6135e024feec732c7d083",
+      "release_sha256": "1feb1a03393c918d0e85917d5b465f064b3e76b1ade6135e024feec732c7d083",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 14812
+    },
+    {
+      "project_relative_source": "tools/spectra_rewrite_training/test_losses.py",
+      "release_relative_path": "tools/spectra_rewrite_training/test_losses.py",
+      "source_sha256": "992bf29446df756ee581689d22043635e57fd611d4eaaebb20b8bc46cf601eba",
+      "release_sha256": "992bf29446df756ee581689d22043635e57fd611d4eaaebb20b8bc46cf601eba",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 12842
+    },
+    {
+      "project_relative_source": "tools/spectra_rewrite_training/test_neu_audit.py",
+      "release_relative_path": "tools/spectra_rewrite_training/test_neu_audit.py",
+      "source_sha256": "90958bbbaecc00b42725cba420f2dcec0b397dda6b4c292831f4367a11e1375c",
+      "release_sha256": "90958bbbaecc00b42725cba420f2dcec0b397dda6b4c292831f4367a11e1375c",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 4540
+    },
+    {
+      "project_relative_source": "tools/spectra_experiment/dataset.py",
+      "release_relative_path": "tools/spectra_experiment/dataset.py",
+      "source_sha256": "1996b645042e0d1b5a21a436041bb30ee38cee9cca87fa5def16284d0a5eba8a",
+      "release_sha256": "1996b645042e0d1b5a21a436041bb30ee38cee9cca87fa5def16284d0a5eba8a",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 18748
+    },
+    {
+      "project_relative_source": "tools/spectra_experiment/evaluation.py",
+      "release_relative_path": "tools/spectra_experiment/evaluation.py",
+      "source_sha256": "7a1f45d70724677a26f6c0d304daa5a976e2d5df2f0d52d5f970d49afd4d2003",
+      "release_sha256": "7a1f45d70724677a26f6c0d304daa5a976e2d5df2f0d52d5f970d49afd4d2003",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 25274
+    },
+    {
+      "project_relative_source": "tools/spectra_experiment/training.py",
+      "release_relative_path": "tools/spectra_experiment/training.py",
+      "source_sha256": "0258a58b8619498b06da7835cc21e6d2df3389fdd50328e33b97fdca7ba3f22e",
+      "release_sha256": "0258a58b8619498b06da7835cc21e6d2df3389fdd50328e33b97fdca7ba3f22e",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 22219
+    },
+    {
+      "project_relative_source": "tools/spectra_experiment/test_dataset.py",
+      "release_relative_path": "tools/spectra_experiment/test_dataset.py",
+      "source_sha256": "7deec6007df728c6394ed1fa2d40d3d2976e61aba1e13ed990a1d314ca7f647c",
+      "release_sha256": "7deec6007df728c6394ed1fa2d40d3d2976e61aba1e13ed990a1d314ca7f647c",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 10173
+    },
+    {
+      "project_relative_source": "tools/spectra_experiment/test_evaluation.py",
+      "release_relative_path": "tools/spectra_experiment/test_evaluation.py",
+      "source_sha256": "65990eb3fa8abdeac4f3a52ce870305c82ec89c75f80d5ff2e948933f2202603",
+      "release_sha256": "65990eb3fa8abdeac4f3a52ce870305c82ec89c75f80d5ff2e948933f2202603",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 21988
+    },
+    {
+      "project_relative_source": "tools/spectra_experiment/test_training.py",
+      "release_relative_path": "tools/spectra_experiment/test_training.py",
+      "source_sha256": "711e80d9d198cf0e1c37101142f93c969e1276ae2f45e914cd4cdbd8d227960c",
+      "release_sha256": "711e80d9d198cf0e1c37101142f93c969e1276ae2f45e914cd4cdbd8d227960c",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 13984
+    },
+    {
+      "project_relative_source": "tools/spectra_formal_experiment/__init__.py",
+      "release_relative_path": "tools/spectra_formal_experiment/__init__.py",
+      "source_sha256": "7854d78d9e2c71b6b99dd3fa45c8cc0c6bdf084236875df0c158b1f8cc6e6f9e",
+      "release_sha256": "7854d78d9e2c71b6b99dd3fa45c8cc0c6bdf084236875df0c158b1f8cc6e6f9e",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 272
+    },
+    {
+      "project_relative_source": "tools/spectra_formal_experiment/cli.py",
+      "release_relative_path": "tools/spectra_formal_experiment/cli.py",
+      "source_sha256": "814aab879e877a20ef1502eb0229608bce4056290bfd11cb1f8cdc51becf620b",
+      "release_sha256": "814aab879e877a20ef1502eb0229608bce4056290bfd11cb1f8cdc51becf620b",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 24881
+    },
+    {
+      "project_relative_source": "tools/spectra_formal_experiment/dataset.py",
+      "release_relative_path": "tools/spectra_formal_experiment/dataset.py",
+      "source_sha256": "bb32b915f76a81ba3b72c0dd3d60f2d6eca840fe77319c4133e8c40f1d909511",
+      "release_sha256": "bb32b915f76a81ba3b72c0dd3d60f2d6eca840fe77319c4133e8c40f1d909511",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 9946
+    },
+    {
+      "project_relative_source": "tools/spectra_formal_experiment/runner.py",
+      "release_relative_path": "tools/spectra_formal_experiment/runner.py",
+      "source_sha256": "51ede455b05c0b4b3ace86dd0f4adb0a8599f9027ec5577cdf8dea49741fd495",
+      "release_sha256": "51ede455b05c0b4b3ace86dd0f4adb0a8599f9027ec5577cdf8dea49741fd495",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 24574
+    },
+    {
+      "project_relative_source": "tools/spectra_formal_experiment/test_formal.py",
+      "release_relative_path": "tools/spectra_formal_experiment/test_formal.py",
+      "source_sha256": "9de38106901b86ce59f6ad8e1bc3ac5c000cb422c3d5d97aed06cc9c54344c61",
+      "release_sha256": "9de38106901b86ce59f6ad8e1bc3ac5c000cb422c3d5d97aed06cc9c54344c61",
+      "transformation": "none; byte-identical allowlisted source",
+      "bytes": 21887
+    }
+  ]
+}

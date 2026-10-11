@@ -1,0 +1,7 @@
+# Direct dependencies of the released source and synthetic tests.
+# This is not a fully resolved environment lock. Select the torch wheel for
+# your platform explicitly; the release's tested environment is recorded below.
+torch
+numpy
+Pillow
+pycocotools

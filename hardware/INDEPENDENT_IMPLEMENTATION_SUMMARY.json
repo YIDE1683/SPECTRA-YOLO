@@ -1,0 +1,32 @@
+{
+  "scope": "Historical independent implementation report extraction, not board measurement and not a new build",
+  "tool": "Vivado 2025.2 win64 Build 6299465",
+  "part": "xczu9eg-ffvb1156-2-e",
+  "requested_HLS_clock_ns": 5.0,
+  "requested_BD_clock_MHz": 200,
+  "actual_post_route_clock_ns": 5.625,
+  "actual_post_route_clock_MHz": 177.778,
+  "post_route_DSP_blocks": 179,
+  "estimated_on_chip_power_W": 3.551,
+  "estimated_dynamic_power_W": 2.822,
+  "estimated_static_power_W": 0.729,
+  "latency_and_initiation_interval": "not established by this extraction",
+  "board_FPS_or_power_measurement": false,
+  "sources": [
+    {
+      "source": "paper/SPECTRA-YOLO_VF3_revision_assets/vivado_real_run/exports/vivado_reports/post_route_timing_summary.rpt",
+      "sha256": "b9e22b1bf29280d58a76ca4d2353ec7f5497382cc4d1df835ed8bd12655026b5",
+      "bytes": 47220
+    },
+    {
+      "source": "paper/SPECTRA-YOLO_VF3_revision_assets/vivado_real_run/exports/vivado_reports/post_route_utilization_hier.rpt",
+      "sha256": "6184038df0bc999dd23ffb3d0ecce3357f6d4a19e7baf13aaedcbc2735e32f99",
+      "bytes": 96699
+    },
+    {
+      "source": "paper/SPECTRA-YOLO_VF3_revision_assets/vivado_real_run/exports/vivado_reports/post_route_power.rpt",
+      "sha256": "99ff0ebf3ebf80360cae954ea67f5f8847093927e5c01f7caf74792886592c2c",
+      "bytes": 12225
+    }
+  ]
+}

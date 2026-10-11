@@ -1,0 +1,221 @@
+{
+  "source_root": "project-relative",
+  "files": [
+    {
+      "source": "zynq/hls/conv_top/spectra_yolo_top.cpp",
+      "release": "hardware/hls/conv_top/spectra_yolo_top.cpp",
+      "source_sha256": "b5a903896be15d039e12338b1651c39c34abc16bc28656266adc22c63c816033",
+      "release_sha256": "b5a903896be15d039e12338b1651c39c34abc16bc28656266adc22c63c816033",
+      "source_bytes": 11165,
+      "release_bytes": 11165,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/hls/conv_top/spectra_yolo_top.h",
+      "release": "hardware/hls/conv_top/spectra_yolo_top.h",
+      "source_sha256": "1abb7da8a55c3b54fa821635b7c25dfad6749d3e9e1b0bd403bdc024c76fc8b7",
+      "release_sha256": "1abb7da8a55c3b54fa821635b7c25dfad6749d3e9e1b0bd403bdc024c76fc8b7",
+      "source_bytes": 2952,
+      "release_bytes": 2952,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/hls/line_buffer/line_buffer.cpp",
+      "release": "hardware/hls/line_buffer/line_buffer.cpp",
+      "source_sha256": "248e6f578906554302420b3dc78dcab2825309feae7967cce1bb1a97bbcb8ead",
+      "release_sha256": "248e6f578906554302420b3dc78dcab2825309feae7967cce1bb1a97bbcb8ead",
+      "source_bytes": 6725,
+      "release_bytes": 6725,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/hls/line_buffer/line_buffer.h",
+      "release": "hardware/hls/line_buffer/line_buffer.h",
+      "source_sha256": "51cf7b309cf2802000c062e81ef781931df25c47f2fcdf0cd265693bc66e8848",
+      "release_sha256": "51cf7b309cf2802000c062e81ef781931df25c47f2fcdf0cd265693bc66e8848",
+      "source_bytes": 5400,
+      "release_bytes": 5400,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/hls/pe_array/pe_array.cpp",
+      "release": "hardware/hls/pe_array/pe_array.cpp",
+      "source_sha256": "f584cae35edf397c4ed8b338e890b74cb036d77c946cda5e4e668db6026b7861",
+      "release_sha256": "f584cae35edf397c4ed8b338e890b74cb036d77c946cda5e4e668db6026b7861",
+      "source_bytes": 7979,
+      "release_bytes": 7979,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/hls/pe_array/pe_array.h",
+      "release": "hardware/hls/pe_array/pe_array.h",
+      "source_sha256": "e3e196442552588fbb96c07e2d1ae2faf38c4b13e4b6c43ff76afddd7916cdbf",
+      "release_sha256": "e3e196442552588fbb96c07e2d1ae2faf38c4b13e4b6c43ff76afddd7916cdbf",
+      "source_bytes": 5789,
+      "release_bytes": 5789,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/hls/sbfp_engine/sbfp_config.h",
+      "release": "hardware/hls/sbfp_engine/sbfp_config.h",
+      "source_sha256": "a5bbd448d9bd28590ae32ef8afc8632f33805381b3ea4abc8303ab6aef7da1e7",
+      "release_sha256": "a5bbd448d9bd28590ae32ef8afc8632f33805381b3ea4abc8303ab6aef7da1e7",
+      "source_bytes": 3597,
+      "release_bytes": 3597,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/hls/sbfp_engine/sbfp_engine.h",
+      "release": "hardware/hls/sbfp_engine/sbfp_engine.h",
+      "source_sha256": "d851dfc98fbc9f2707fe73a9c894966398a5c23c98e21ad1374516d2366fd391",
+      "release_sha256": "d851dfc98fbc9f2707fe73a9c894966398a5c23c98e21ad1374516d2366fd391",
+      "source_bytes": 4943,
+      "release_bytes": 4943,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/ps/h3s_scheduler.c",
+      "release": "hardware/ps/h3s_scheduler.c",
+      "source_sha256": "602c7c305bf53357ea479facd5b536ff32985f20da210fd78b25c79be39f685f",
+      "release_sha256": "602c7c305bf53357ea479facd5b536ff32985f20da210fd78b25c79be39f685f",
+      "source_bytes": 9087,
+      "release_bytes": 9087,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/ps/h3s_scheduler.h",
+      "release": "hardware/ps/h3s_scheduler.h",
+      "source_sha256": "a717d5ec2a4f104e4cd48f80ed99218b7110120c42f0bff96e96489f3da72bce",
+      "release_sha256": "a717d5ec2a4f104e4cd48f80ed99218b7110120c42f0bff96e96489f3da72bce",
+      "source_bytes": 6104,
+      "release_bytes": 6104,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/ps/main.c",
+      "release": "hardware/ps/main.c",
+      "source_sha256": "46fecde6444c624286de2697946bb81e0835474bc5ecd317909fed124d669866",
+      "release_sha256": "46fecde6444c624286de2697946bb81e0835474bc5ecd317909fed124d669866",
+      "source_bytes": 5505,
+      "release_bytes": 5505,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/ps/Makefile",
+      "release": "hardware/ps/Makefile",
+      "source_sha256": "31459c89ae1870479cc685703be9b3146aac8972153fb975866733a3d225b6e0",
+      "release_sha256": "8e59dd306bccfe2c82411dc0dd10e9744dbbe21afe28bc8479d4214cde6f112b",
+      "source_bytes": 1972,
+      "release_bytes": 2082,
+      "modification": "Removed AArch32-only compiler flags from AArch64 target; deployment/SSH targets require explicit destination variables; not executed"
+    },
+    {
+      "source": "zynq/ps/nms.c",
+      "release": "hardware/ps/nms.c",
+      "source_sha256": "6221da452515c1d231cfd06171a7e148299d954e9a22be2a620d83bef2c55f50",
+      "release_sha256": "6221da452515c1d231cfd06171a7e148299d954e9a22be2a620d83bef2c55f50",
+      "source_bytes": 7034,
+      "release_bytes": 7034,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/ps/nms.h",
+      "release": "hardware/ps/nms.h",
+      "source_sha256": "2869f923511661799fc2dd85cc7c226d7015e54e0106792eefee17eff76a10c5",
+      "release_sha256": "2869f923511661799fc2dd85cc7c226d7015e54e0106792eefee17eff76a10c5",
+      "source_bytes": 4780,
+      "release_bytes": 4780,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/ps/preprocess.c",
+      "release": "hardware/ps/preprocess.c",
+      "source_sha256": "8a7b2cc7391d518458344abad69b05c57b3530bfa9f0e649b378fd75679ed7d8",
+      "release_sha256": "8a7b2cc7391d518458344abad69b05c57b3530bfa9f0e649b378fd75679ed7d8",
+      "source_bytes": 7176,
+      "release_bytes": 7176,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/ps/preprocess.h",
+      "release": "hardware/ps/preprocess.h",
+      "source_sha256": "9ea01c043183807bd941de31d5622790f21422a5ec33281cc9285500052dbbf5",
+      "release_sha256": "9ea01c043183807bd941de31d5622790f21422a5ec33281cc9285500052dbbf5",
+      "source_bytes": 4492,
+      "release_bytes": 4492,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/ps/uio_ctrl.c",
+      "release": "hardware/ps/uio_ctrl.c",
+      "source_sha256": "ad336009ef57d82e423d521ea0e09d95df518ddf1b9ee78c74c2cef4649166c5",
+      "release_sha256": "ad336009ef57d82e423d521ea0e09d95df518ddf1b9ee78c74c2cef4649166c5",
+      "source_bytes": 5035,
+      "release_bytes": 5035,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/ps/uio_ctrl.h",
+      "release": "hardware/ps/uio_ctrl.h",
+      "source_sha256": "b4814b606375dd15906f68cae76155b6c71afbb7fabb73cc57e28120e0f7b168",
+      "release_sha256": "b4814b606375dd15906f68cae76155b6c71afbb7fabb73cc57e28120e0f7b168",
+      "source_bytes": 4400,
+      "release_bytes": 4400,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/vivado/constraints/zcu102_constraints.xdc",
+      "release": "hardware/vivado/constraints/zcu102_constraints.xdc",
+      "source_sha256": "efb94a29f0760b4fbc0072fc55130e784cc304236a62ea897ffc5f2914faffa6",
+      "release_sha256": "efb94a29f0760b4fbc0072fc55130e784cc304236a62ea897ffc5f2914faffa6",
+      "source_bytes": 5498,
+      "release_bytes": 5498,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "zynq/vivado/scripts/create_bd.tcl",
+      "release": "hardware/vivado/scripts/create_bd.tcl",
+      "source_sha256": "5b0ee86c8736d7c6c995751a6e8a1f6b0291d066c64f7a612bf6c7ec63a6d4e1",
+      "release_sha256": "5b0ee86c8736d7c6c995751a6e8a1f6b0291d066c64f7a612bf6c7ec63a6d4e1",
+      "source_bytes": 6354,
+      "release_bytes": 6354,
+      "modification": "Byte-identical source copy"
+    },
+    {
+      "source": "paper/SPECTRA-YOLO_VF3_revision_assets/vivado_real_run/scripts/run_hls.tcl",
+      "release": "hardware/independent_flow/scripts/run_hls.tcl",
+      "source_sha256": "dacbc76931c591274104941d8195ebb0e4c9d7192069a94bd82495dbea4791a1",
+      "release_sha256": "ed09bce6e4bf936e7f6e97005607582056ab6a90ae0e45354c46b695baf11658",
+      "source_bytes": 1962,
+      "release_bytes": 1985,
+      "modification": "Only project-root paths/comments made relative; vendor commands and clock requests unchanged"
+    },
+    {
+      "source": "paper/SPECTRA-YOLO_VF3_revision_assets/vivado_real_run/scripts/create_bd_checked.tcl",
+      "release": "hardware/independent_flow/scripts/create_bd_checked.tcl",
+      "source_sha256": "e34585bf575e0074672077f66cc3bbc2f3c9c8bbc69511a984a70f747a3bed7a",
+      "release_sha256": "86c8291b685f8b89120a323071e6a19802580eefc8249e1163fdbf295d291f18",
+      "source_bytes": 6043,
+      "release_bytes": 6038,
+      "modification": "Only project-root paths/comments made relative; vendor commands and clock requests unchanged"
+    },
+    {
+      "source": "paper/SPECTRA-YOLO_VF3_revision_assets/vivado_real_run/scripts/run_vivado_impl.tcl",
+      "release": "hardware/independent_flow/scripts/run_vivado_impl.tcl",
+      "source_sha256": "0e034981bbb12ad243c05f730d28f0e5882e0f297928c1b31ebceda165268ae2",
+      "release_sha256": "cac5039bcebc1da3e410e1b3f188f64404251b02fa7ed9d9579235511c96fec8",
+      "source_bytes": 2767,
+      "release_bytes": 2785,
+      "modification": "Only project-root paths/comments made relative; vendor commands and clock requests unchanged"
+    },
+    {
+      "source": "paper/SPECTRA-YOLO_VF3_revision_assets/vivado_real_run/scripts/zcu102_constraints_checked.xdc",
+      "release": "hardware/independent_flow/scripts/zcu102_constraints_checked.xdc",
+      "source_sha256": "b086e57c7c98e50408e808cc8ea0bac7d5bb89236b412d28875399c0b5bfe2cf",
+      "release_sha256": "b086e57c7c98e50408e808cc8ea0bac7d5bb89236b412d28875399c0b5bfe2cf",
+      "source_bytes": 860,
+      "release_bytes": 860,
+      "modification": "Only project-root paths/comments made relative; vendor commands and clock requests unchanged"
+    }
+  ]
+}

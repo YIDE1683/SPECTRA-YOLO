@@ -1,23 +1,15 @@
-# Public Reproducibility Scope
+# Reproducibility scope
 
-This repository provides the SPECTRA-YOLO public engineering package for citation and submission review.
+The first public commit contained placeholders only. The present release adds
+actual reference sources under `algorithm/` and `hardware/`. Use their README
+files and validation records rather than the legacy root stub paths.
 
-## Included
+The released tests verify synthetic software contracts. Historical Vivado
+values are separately identified, with report hashes. Final SLF checkpoints,
+complete NEU/VisDrone evaluation records, whole-network quantized deployment,
+and board-level throughput/power evidence are not supplied or newly verified.
 
-- Minimal host-side build scaffold.
-- Placeholder accelerator interface.
-- Placeholder project and constraint files.
-- Directory structure matching the engineering categories used by the manuscript.
-
-## Not Included
-
-- Detailed accelerator kernels.
-- Numeric calibration records.
-- Scheduling and buffering implementation logic.
-- Generated hardware projects and bitstreams.
-- Model weights, datasets, split files, raw measurements, and deployment logs.
-- Board-specific runtime configuration files.
-
-## Review Access
-
-The complete engineering archive is retained by the authors. Editors and reviewers may request additional materials through the corresponding author when required by the submission process.
+The package supports inspection of implementation ideas and selected software
+behaviours, not independent reproduction of every paper result. Dataset files,
+licensed vendor dependencies and raw private logs are excluded. Rights and
+access routes are in `RIGHTS_NOTICE.md` and `DATA_AND_CODE_SCOPE.md`.

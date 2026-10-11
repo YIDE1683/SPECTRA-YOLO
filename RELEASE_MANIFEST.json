@@ -1,0 +1,360 @@
+{
+  "schema": "spectra_public_source_manifest_v1",
+  "release_date": "2026-10-11",
+  "repository": "https://github.com/YIDE1683/SPECTRA-YOLO",
+  "base_commit": "31a2f5b54b917a3b08c8d948d63c813d12fd2a61",
+  "scope": "Research-reference source and validation, not complete paper-result reproduction",
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 173,
+      "sha256": "03210b347291ac6430c993bcd0123b360d1caebc5688b19783c6a84eb1a2cdca"
+    },
+    {
+      "path": "algorithm/README.md",
+      "bytes": 6449,
+      "sha256": "bb9fa62f561403ea82a2bd40a41addd40046d25e1faaa712e722fdcb711225ee"
+    },
+    {
+      "path": "algorithm/requirements.txt",
+      "bytes": 253,
+      "sha256": "d7f0faeacfc117418f45b01039f8fe454ab3b1e90e0521a6ee5109b21e45ef11"
+    },
+    {
+      "path": "algorithm/SOURCE_PROVENANCE.json",
+      "bytes": 14430,
+      "sha256": "933a1d66704f5e25e94793adc2e4decc4636d642b961bb4ec0616c3775b8c063"
+    },
+    {
+      "path": "algorithm/tools/spectra_a_prototype/contract.json",
+      "bytes": 6478,
+      "sha256": "99e6848b4d85d1088fc4d010e27c73d63537192cc44d706f6f87789735609c1d"
+    },
+    {
+      "path": "algorithm/tools/spectra_a_prototype/model.py",
+      "bytes": 15706,
+      "sha256": "a2fbca6514c907edecf5f9053ca25702d64953a2ac9af3122ec9e3953ea002c1"
+    },
+    {
+      "path": "algorithm/tools/spectra_a_prototype/numerics.py",
+      "bytes": 11775,
+      "sha256": "dfb1b37257c7740afe22f8c4a7359980a3f9da49d61a207355cd29d3be5c2e5c"
+    },
+    {
+      "path": "algorithm/tools/spectra_a_prototype/resource_model.py",
+      "bytes": 14990,
+      "sha256": "390d74816da7a615be561e41692f7463fc539324fd54bc4e587e6d90b3b48d7a"
+    },
+    {
+      "path": "algorithm/tools/spectra_a_prototype/test_model.py",
+      "bytes": 14954,
+      "sha256": "3628a8ee45207eb0e04bbbd09579759e47cd275efd0db15924423504d1f6c5ea"
+    },
+    {
+      "path": "algorithm/tools/spectra_a_prototype/test_numerics.py",
+      "bytes": 8632,
+      "sha256": "1b53baadff722aaa2e3c2ff0b2a4aac0fb3e06c9f17ee455feae9b355b0ed01f"
+    },
+    {
+      "path": "algorithm/tools/spectra_a_prototype/test_resources.py",
+      "bytes": 8650,
+      "sha256": "3a9ebf66fa0cb2056483431933eebed83d97fbdaa6cc6982bac131f3a66ed86d"
+    },
+    {
+      "path": "algorithm/tools/spectra_a_prototype/test_tile_planner.py",
+      "bytes": 7796,
+      "sha256": "6dfc46b39b2f131dedd11194ed57b00f41911e55ea7a231d66b58f4462b6795b"
+    },
+    {
+      "path": "algorithm/tools/spectra_a_prototype/test_tiled_reference.py",
+      "bytes": 2266,
+      "sha256": "6b7de1c6f0da8b9c991fa016e0e5521c4acfe5dea99996cb9824906797ad95ce"
+    },
+    {
+      "path": "algorithm/tools/spectra_a_prototype/tile_planner.py",
+      "bytes": 14229,
+      "sha256": "2d253548a0e989feaefa10abacc78769027552e5da92b71053775325b54d28eb"
+    },
+    {
+      "path": "algorithm/tools/spectra_a_prototype/tiled_reference.py",
+      "bytes": 4052,
+      "sha256": "73f50dddd1cc1e42cbc36e6b70af87246b93e099eb70ed4ce0144ac7d30273b0"
+    },
+    {
+      "path": "algorithm/tools/spectra_experiment/dataset.py",
+      "bytes": 18748,
+      "sha256": "1996b645042e0d1b5a21a436041bb30ee38cee9cca87fa5def16284d0a5eba8a"
+    },
+    {
+      "path": "algorithm/tools/spectra_experiment/evaluation.py",
+      "bytes": 25274,
+      "sha256": "7a1f45d70724677a26f6c0d304daa5a976e2d5df2f0d52d5f970d49afd4d2003"
+    },
+    {
+      "path": "algorithm/tools/spectra_experiment/test_dataset.py",
+      "bytes": 10173,
+      "sha256": "7deec6007df728c6394ed1fa2d40d3d2976e61aba1e13ed990a1d314ca7f647c"
+    },
+    {
+      "path": "algorithm/tools/spectra_experiment/test_evaluation.py",
+      "bytes": 21988,
+      "sha256": "65990eb3fa8abdeac4f3a52ce870305c82ec89c75f80d5ff2e948933f2202603"
+    },
+    {
+      "path": "algorithm/tools/spectra_experiment/test_training.py",
+      "bytes": 13984,
+      "sha256": "711e80d9d198cf0e1c37101142f93c969e1276ae2f45e914cd4cdbd8d227960c"
+    },
+    {
+      "path": "algorithm/tools/spectra_experiment/training.py",
+      "bytes": 22219,
+      "sha256": "0258a58b8619498b06da7835cc21e6d2df3389fdd50328e33b97fdca7ba3f22e"
+    },
+    {
+      "path": "algorithm/tools/spectra_formal_experiment/__init__.py",
+      "bytes": 272,
+      "sha256": "7854d78d9e2c71b6b99dd3fa45c8cc0c6bdf084236875df0c158b1f8cc6e6f9e"
+    },
+    {
+      "path": "algorithm/tools/spectra_formal_experiment/cli.py",
+      "bytes": 24881,
+      "sha256": "814aab879e877a20ef1502eb0229608bce4056290bfd11cb1f8cdc51becf620b"
+    },
+    {
+      "path": "algorithm/tools/spectra_formal_experiment/dataset.py",
+      "bytes": 9946,
+      "sha256": "bb32b915f76a81ba3b72c0dd3d60f2d6eca840fe77319c4133e8c40f1d909511"
+    },
+    {
+      "path": "algorithm/tools/spectra_formal_experiment/runner.py",
+      "bytes": 24574,
+      "sha256": "51ede455b05c0b4b3ace86dd0f4adb0a8599f9027ec5577cdf8dea49741fd495"
+    },
+    {
+      "path": "algorithm/tools/spectra_formal_experiment/test_formal.py",
+      "bytes": 21887,
+      "sha256": "9de38106901b86ce59f6ad8e1bc3ac5c000cb422c3d5d97aed06cc9c54344c61"
+    },
+    {
+      "path": "algorithm/tools/spectra_rewrite_training/audit_neu.py",
+      "bytes": 31016,
+      "sha256": "e2a63aba6867a41cf5a4bb4ceee9f8f97290315c835e4da7189f57e2f9d950ae"
+    },
+    {
+      "path": "algorithm/tools/spectra_rewrite_training/data.py",
+      "bytes": 23031,
+      "sha256": "c46dbbc0abd1cfaf6094a5c32fbf1cbec7176bdcfc0e1251e3430ec06f451b29"
+    },
+    {
+      "path": "algorithm/tools/spectra_rewrite_training/detection.py",
+      "bytes": 21136,
+      "sha256": "1e2aa72504dd51e3b8e23f4a42db81e9f4d237185a88789f5177c073b8a4a54a"
+    },
+    {
+      "path": "algorithm/tools/spectra_rewrite_training/losses.py",
+      "bytes": 14806,
+      "sha256": "37f231ede1a2f6cc9827fac0ae881c4b31105851f3fcd8d1c20ea0506aa7a5d0"
+    },
+    {
+      "path": "algorithm/tools/spectra_rewrite_training/model_adapter.py",
+      "bytes": 3902,
+      "sha256": "2e51b347a6adb76083272345d99a5a1ee1a1b83742cc03e8f0d9cfe70eaeb0fd"
+    },
+    {
+      "path": "algorithm/tools/spectra_rewrite_training/test_adapter.py",
+      "bytes": 3773,
+      "sha256": "77ed9b7fe03f0e87be3033f288ea9992484058c76c68219078ace1968e420471"
+    },
+    {
+      "path": "algorithm/tools/spectra_rewrite_training/test_data.py",
+      "bytes": 10815,
+      "sha256": "c8272bd6b94a9fbde760cab78d7c83e0a59f68f6f314a90cad45121ac0655e8c"
+    },
+    {
+      "path": "algorithm/tools/spectra_rewrite_training/test_detection.py",
+      "bytes": 14812,
+      "sha256": "1feb1a03393c918d0e85917d5b465f064b3e76b1ade6135e024feec732c7d083"
+    },
+    {
+      "path": "algorithm/tools/spectra_rewrite_training/test_losses.py",
+      "bytes": 12842,
+      "sha256": "992bf29446df756ee581689d22043635e57fd611d4eaaebb20b8bc46cf601eba"
+    },
+    {
+      "path": "algorithm/tools/spectra_rewrite_training/test_neu_audit.py",
+      "bytes": 4540,
+      "sha256": "90958bbbaecc00b42725cba420f2dcec0b397dda6b4c292831f4367a11e1375c"
+    },
+    {
+      "path": "algorithm/VALIDATION.json",
+      "bytes": 1933,
+      "sha256": "fd3e5ff7960c3c32a7b8f2a63d58867be18cb4c049b3b9f1c172e7c1d3a1b29b"
+    },
+    {
+      "path": "algorithm/verify_synthetic.py",
+      "bytes": 2102,
+      "sha256": "edb1b959d2a3837d1966e8eb54ea655eb886dbd831c98ea756add250f88d95c7"
+    },
+    {
+      "path": "docs/DATA_AND_CODE_SCOPE.md",
+      "bytes": 1343,
+      "sha256": "b627d0f305dbb80b04366bcdaa12eccdcc7b6ee9d6d2f7248730ce73d9db3170"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY_SCOPE.md",
+      "bytes": 861,
+      "sha256": "ab34d2a6729bff2aa3f47d50059efc857d145882753b9168d34d8ce0fcc5a499"
+    },
+    {
+      "path": "docs/RIGHTS_NOTICE.md",
+      "bytes": 874,
+      "sha256": "2b0da819c81c3a85f5f6f5e0276e9d4e776282953d17c3d59e615e30175bcdd8"
+    },
+    {
+      "path": "hardware/hls/conv_top/spectra_yolo_top.cpp",
+      "bytes": 11165,
+      "sha256": "b5a903896be15d039e12338b1651c39c34abc16bc28656266adc22c63c816033"
+    },
+    {
+      "path": "hardware/hls/conv_top/spectra_yolo_top.h",
+      "bytes": 2952,
+      "sha256": "1abb7da8a55c3b54fa821635b7c25dfad6749d3e9e1b0bd403bdc024c76fc8b7"
+    },
+    {
+      "path": "hardware/hls/line_buffer/line_buffer.cpp",
+      "bytes": 6725,
+      "sha256": "248e6f578906554302420b3dc78dcab2825309feae7967cce1bb1a97bbcb8ead"
+    },
+    {
+      "path": "hardware/hls/line_buffer/line_buffer.h",
+      "bytes": 5400,
+      "sha256": "51cf7b309cf2802000c062e81ef781931df25c47f2fcdf0cd265693bc66e8848"
+    },
+    {
+      "path": "hardware/hls/pe_array/pe_array.cpp",
+      "bytes": 7979,
+      "sha256": "f584cae35edf397c4ed8b338e890b74cb036d77c946cda5e4e668db6026b7861"
+    },
+    {
+      "path": "hardware/hls/pe_array/pe_array.h",
+      "bytes": 5789,
+      "sha256": "e3e196442552588fbb96c07e2d1ae2faf38c4b13e4b6c43ff76afddd7916cdbf"
+    },
+    {
+      "path": "hardware/hls/sbfp_engine/sbfp_config.h",
+      "bytes": 3597,
+      "sha256": "a5bbd448d9bd28590ae32ef8afc8632f33805381b3ea4abc8303ab6aef7da1e7"
+    },
+    {
+      "path": "hardware/hls/sbfp_engine/sbfp_engine.h",
+      "bytes": 4943,
+      "sha256": "d851dfc98fbc9f2707fe73a9c894966398a5c23c98e21ad1374516d2366fd391"
+    },
+    {
+      "path": "hardware/independent_flow/scripts/create_bd_checked.tcl",
+      "bytes": 6038,
+      "sha256": "86c8291b685f8b89120a323071e6a19802580eefc8249e1163fdbf295d291f18"
+    },
+    {
+      "path": "hardware/independent_flow/scripts/run_hls.tcl",
+      "bytes": 1985,
+      "sha256": "ed09bce6e4bf936e7f6e97005607582056ab6a90ae0e45354c46b695baf11658"
+    },
+    {
+      "path": "hardware/independent_flow/scripts/run_vivado_impl.tcl",
+      "bytes": 2785,
+      "sha256": "cac5039bcebc1da3e410e1b3f188f64404251b02fa7ed9d9579235511c96fec8"
+    },
+    {
+      "path": "hardware/independent_flow/scripts/zcu102_constraints_checked.xdc",
+      "bytes": 860,
+      "sha256": "b086e57c7c98e50408e808cc8ea0bac7d5bb89236b412d28875399c0b5bfe2cf"
+    },
+    {
+      "path": "hardware/INDEPENDENT_IMPLEMENTATION_SUMMARY.json",
+      "bytes": 1386,
+      "sha256": "ceea78472731dc39aa050de8c9e503d870b441d02ec8a1863ae5d2bf90bb6967"
+    },
+    {
+      "path": "hardware/ps/h3s_scheduler.c",
+      "bytes": 9087,
+      "sha256": "602c7c305bf53357ea479facd5b536ff32985f20da210fd78b25c79be39f685f"
+    },
+    {
+      "path": "hardware/ps/h3s_scheduler.h",
+      "bytes": 6104,
+      "sha256": "a717d5ec2a4f104e4cd48f80ed99218b7110120c42f0bff96e96489f3da72bce"
+    },
+    {
+      "path": "hardware/ps/main.c",
+      "bytes": 5505,
+      "sha256": "46fecde6444c624286de2697946bb81e0835474bc5ecd317909fed124d669866"
+    },
+    {
+      "path": "hardware/ps/Makefile",
+      "bytes": 2082,
+      "sha256": "8e59dd306bccfe2c82411dc0dd10e9744dbbe21afe28bc8479d4214cde6f112b"
+    },
+    {
+      "path": "hardware/ps/nms.c",
+      "bytes": 7034,
+      "sha256": "6221da452515c1d231cfd06171a7e148299d954e9a22be2a620d83bef2c55f50"
+    },
+    {
+      "path": "hardware/ps/nms.h",
+      "bytes": 4780,
+      "sha256": "2869f923511661799fc2dd85cc7c226d7015e54e0106792eefee17eff76a10c5"
+    },
+    {
+      "path": "hardware/ps/preprocess.c",
+      "bytes": 7176,
+      "sha256": "8a7b2cc7391d518458344abad69b05c57b3530bfa9f0e649b378fd75679ed7d8"
+    },
+    {
+      "path": "hardware/ps/preprocess.h",
+      "bytes": 4492,
+      "sha256": "9ea01c043183807bd941de31d5622790f21422a5ec33281cc9285500052dbbf5"
+    },
+    {
+      "path": "hardware/ps/uio_ctrl.c",
+      "bytes": 5035,
+      "sha256": "ad336009ef57d82e423d521ea0e09d95df518ddf1b9ee78c74c2cef4649166c5"
+    },
+    {
+      "path": "hardware/ps/uio_ctrl.h",
+      "bytes": 4400,
+      "sha256": "b4814b606375dd15906f68cae76155b6c71afbb7fabb73cc57e28120e0f7b168"
+    },
+    {
+      "path": "hardware/README.md",
+      "bytes": 5364,
+      "sha256": "5fc286a63b11e192a108d93c9f38037329697c88863c7dae7c4ff3f8cae9c589"
+    },
+    {
+      "path": "hardware/RELEASE_CHECKS.json",
+      "bytes": 517,
+      "sha256": "b9918e2938d961db1e2ff8ffa5577a242908a531a993eb08fb0c9d8fe1313932"
+    },
+    {
+      "path": "hardware/SOURCE_PROVENANCE.json",
+      "bytes": 10612,
+      "sha256": "0103a9fa92effbd825dfdd734427f9669960530f5ef389cb58d3f34145a2845e"
+    },
+    {
+      "path": "hardware/vivado/constraints/zcu102_constraints.xdc",
+      "bytes": 5498,
+      "sha256": "efb94a29f0760b4fbc0072fc55130e784cc304236a62ea897ffc5f2914faffa6"
+    },
+    {
+      "path": "hardware/vivado/scripts/create_bd.tcl",
+      "bytes": 6354,
+      "sha256": "5b0ee86c8736d7c6c995751a6e8a1f6b0291d066c64f7a612bf6c7ec63a6d4e1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3237,
+      "sha256": "f811a01133750fd9836d2fbe1c01f45196fc0e7cb13502631ec1e59e70e49467"
+    }
+  ]
+}

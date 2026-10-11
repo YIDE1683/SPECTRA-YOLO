@@ -1,0 +1,60 @@
+{
+  "format": "spectra_algorithm_release_validation_v1",
+  "date": "2026-10-11",
+  "scope": "Source packaging, CLI help and synthetic software-contract verification only; no full training, manuscript AP reproduction or board measurement.",
+  "environment": {
+    "python": "3.12.10",
+    "platform": "Windows",
+    "torch": "2.10.0.dev20251211+cu128",
+    "numpy": "2.4.4",
+    "Pillow": "12.0.0",
+    "pycocotools": "2.0.10",
+    "dependency_installation_performed": false,
+    "note": "These are observed local versions, not a universally portable resolved dependency lock. Synthetic tests run on CPU."
+  },
+  "checks": [
+    {
+      "command": "python -m compileall -q tools verify_synthetic.py",
+      "working_directory": "algorithm",
+      "exit_code": 0
+    },
+    {
+      "command": "python -m tools.spectra_formal_experiment.cli --help",
+      "working_directory": "algorithm",
+      "exit_code": 0,
+      "modes": ["dry-run", "verify-all", "probe", "train", "resume", "evaluate"]
+    },
+    {
+      "command": "python verify_synthetic.py --suite quick",
+      "working_directory": "algorithm",
+      "exit_code": 0,
+      "tests_run": 85,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "wall_seconds": 4.940
+    },
+    {
+      "command": "python verify_synthetic.py --suite all",
+      "working_directory": "algorithm",
+      "exit_code": 0,
+      "tests_run": 197,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "wall_seconds": 4.608
+    }
+  ],
+  "source_files": 32,
+  "source_bytes": 444147,
+  "raw_dataset_images_released": false,
+  "trained_checkpoints_released": false,
+  "full_paper_result_reproduction_verified": false,
+  "checks_not_run": [
+    "Training on NEU or VisDrone",
+    "Evaluation of a final trained manuscript checkpoint",
+    "Integrated SLF/QAT training",
+    "Whole-network integer deployment equivalence",
+    "FPGA throughput or board power measurement"
+  ]
+}

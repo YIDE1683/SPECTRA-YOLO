@@ -1,0 +1,13 @@
+{
+  "source_files": 24,
+  "local_includes": 20,
+  "unresolved_local_includes": 0,
+  "source_hashes_verified": true,
+  "device_operations": 0,
+  "compile_status": "SKIPPED: no gcc/clang on Windows PATH; WSL Ubuntu-24.04 blocked by WSL_E_CUSTOM_KERNEL_NOT_FOUND; no environment change attempted",
+  "HLS_synthesis_or_Vivado_implementation_this_release": "NOT RUN",
+  "Tcl_version": "8.6.15",
+  "Tcl_XDC_structural_completeness": "PASS",
+  "Tcl_XDC_files_checked": 6,
+  "vendor_commands_evaluated": false
+}
